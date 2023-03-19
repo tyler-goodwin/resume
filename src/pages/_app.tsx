@@ -3,7 +3,7 @@ import { classes } from "@/utils";
 import type { AppProps } from "next/app";
 import { Fira_Code } from "next/font/google";
 
-import styles from "@/styles/Home.module.css";
+import styles from "@/styles/layout.module.css";
 
 const font = Fira_Code({ subsets: ["latin"] });
 
