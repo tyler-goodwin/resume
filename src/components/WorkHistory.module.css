@@ -1,0 +1,20 @@
+.sectionHeading {
+  margin-bottom: 2.5rem;
+}
+
+.role {
+  margin-bottom: 2.5rem;
+}
+
+.header {
+  display: flex;
+  align-items: baseline;
+}
+
+.header h3 {
+  flex-grow: 2;
+}
+
+.date {
+  text-align: right;
+}
