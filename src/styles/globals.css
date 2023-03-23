@@ -3,8 +3,8 @@
 
   --foreground: #121113;
   --accent-primary: #222725;
-  --accent-secondary: #899878;
-  --accent-teriary: #e4e6c3;
+  --accent-secondary: #7b866e;
+  --accent-tertiary: #e4e6c3;
   --background: #f7f7f2;
 }
 
@@ -12,8 +12,8 @@
   :root {
     --foreground: #f7f7f2;
     --accent-primary: #e4e6c3;
-    --accent-secondary: #899878;
-    --accent-teriary: #222725;
+    --accent-secondary: #7b866e;
+    --accent-tertiary: #222725;
     --background: #121113;
   }
 }
@@ -58,11 +58,21 @@ small {
 }
 
 section {
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
-section > h2 {
-  margin-bottom: 2rem;
+section h2 {
+  margin-bottom: 1.5rem;
+}
+
+section h3 {
+  margin-bottom: 1rem;
+}
+
+p,
+ul {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 @media (prefers-color-scheme: dark) {
