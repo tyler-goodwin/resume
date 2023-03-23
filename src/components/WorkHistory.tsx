@@ -11,7 +11,7 @@ type Role = {
 };
 
 export interface Props {
-  roles: Role[];
+  roles?: Role[];
 }
 
 export const WorkHistory: React.FC<Props> = (props) => {

@@ -19,7 +19,7 @@ type Section = {
 };
 
 export type Props = {
-  sections: Section[];
+  sections?: Section[];
 };
 
 export const Skills: React.FC<Props> = (props) => {
@@ -27,7 +27,7 @@ export const Skills: React.FC<Props> = (props) => {
   return (
     <section>
       <h2>Skills</h2>
-      {sections.map((s, i) => (
+      {(sections || []).map((s, i) => (
         <SectionDisplay key={i} section={s} />
       ))}
     </section>
