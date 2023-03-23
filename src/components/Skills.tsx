@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "./skills.module.css";
+import styles from "./Skills.module.css";
 
 export const DEFAULT_SKILLS: Section[] = [
   {
