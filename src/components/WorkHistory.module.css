@@ -8,7 +8,9 @@
 
 .header {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
+  margin-bottom: var(--h3-margin);
 }
 
 .header small {
@@ -17,6 +19,7 @@
 
 .header h3 {
   flex-grow: 2;
+  margin-bottom: 0;
 }
 
 .date {
