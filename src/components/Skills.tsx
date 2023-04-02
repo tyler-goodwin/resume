@@ -1,3 +1,4 @@
+import { classes } from "@/utils";
 import React from "react";
 
 import styles from "./Skills.module.css";
@@ -36,15 +37,16 @@ type Section = {
 };
 
 export type Props = {
+  flex?: boolean;
   sections?: Section[];
 };
 
 export const Skills: React.FC<Props> = (props) => {
-  const { sections } = props;
+  const { sections, flex } = props;
   return (
     <section>
       <h2>Skills</h2>
-      <div className={styles.skills}>
+      <div className={classes(styles.skills, flex && styles.skillsFlex)}>
         {(sections || []).map((s, i) => (
           <SectionDisplay key={i} section={s} />
         ))}
@@ -55,6 +57,7 @@ export const Skills: React.FC<Props> = (props) => {
 
 Skills.defaultProps = {
   sections: DEFAULT_SKILLS,
+  flex: true,
 };
 
 export const SectionDisplay: React.FC<{ section: Section }> = (props) => {

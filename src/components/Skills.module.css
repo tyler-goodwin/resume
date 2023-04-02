@@ -4,12 +4,12 @@
   gap: 16px;
 }
 
-.skills > * {
+.skillsFlex > * {
   flex-basis: calc(50% - 16px);
 }
 
 @media screen and (max-width: 600px) {
-  .skills > * {
+  .skillsFlex > * {
     flex-basis: calc(100% - 16px);
   }
 }
