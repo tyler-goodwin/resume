@@ -23,7 +23,7 @@ export const DEFAULT_SKILLS: Section[] = [
     items: ["React", "Ruby on Rails", "PostgreSQL", "Three.js"],
   },
   {
-    heading: "Devops",
+    heading: "DevOps",
     items: [
       "AWS",
       "Pulumi",
