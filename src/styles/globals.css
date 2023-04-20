@@ -15,12 +15,12 @@
   --background: #f7f7f2;
 }
 
-@print {
+@media print {
   :root {
-    --section-margin: 1.5rem;
-    --h1-margin: 1rem;
-    --h2-margin: 1rem;
-    --h3-margin: 1rem;
+    --section-margin: 1rem;
+    --h1-margin: 0.5rem;
+    --h2-margin: 0.5rem;
+    --h3-margin: 0.5rem;
     --body-margin: 0.5rem;
   }
 }
