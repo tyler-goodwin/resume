@@ -6,7 +6,7 @@ const DEFAULT_PROJECTS = [
   {
     heading: "Development of Technical Strategy for 2023-2025",
     description:
-      "Worked closely with technical director to set out technical vision and strategy for the next 3 years",
+      "Worked closely with Phoria's Technical Director to set out technical vision and strategy for the next 3 years",
     items: [
       "Detailed resourcing, technical debt and key focus areas for the duration of the plan",
       "Working with key stakeholders for implementation and delivery",

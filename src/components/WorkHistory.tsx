@@ -50,11 +50,13 @@ const ROLES: Role[] = [
     employer: "Phoria",
     start: "August 2022",
     end: "Present",
-    description: "Lead the development team for the CAPTUR3D platform",
+    description:
+      "Lead of development team for the CAPTUR3D platform. Managing delivery of technical goals for the platform, including paying down technical debt and ensuring sustainable development practises.",
     responsibilities: [
-      "Managing delivery of technical goals for the platform",
-      "Tracking DORA metrics and OKRs for the team",
-      "Supporting team development and blaah",
+      "Setting and ensuring delivery of technical strategy to meet business goals",
+      "Overseeing management of feature delivery and platform maintenance",
+      "Ensuring strong dev team performance via DORA metrics and OKRs",
+      "Supporting team professional development",
     ],
   },
   {
@@ -66,7 +68,10 @@ const ROLES: Role[] = [
       "Full stack developer working with Ruby on Rails, Typescript and React. ",
     responsibilities: [
       "Leading feature delivery",
+      "Incidence response and mitigations",
+      "Developer tooling improvements to support effecient development practises",
       "Devops and IaC using AWS, Pulumi and Cloudflare",
+      "Mentoring mid and junior developers",
     ],
   },
   {
@@ -79,6 +84,7 @@ const ROLES: Role[] = [
     responsibilities: [
       "Full-stack TDD with Ruby, Javascript and Kotlin",
       "Linux application development with C++",
+      "Rapid POC developments",
     ],
   },
   {
@@ -91,6 +97,7 @@ const ROLES: Role[] = [
     responsibilities: [
       "Full-stack TDD with Ruby, Javascript and Kotlin",
       "Linux application development with C++",
+      "Rapid POC developments",
     ],
   },
   {
@@ -98,11 +105,10 @@ const ROLES: Role[] = [
     employer: "Bosch Australia",
     start: "July 2017",
     end: "March 2019",
-    description:
-      "Full-stack development for embedded linux devices and cloud applications for enabling connectivity in automated driving",
+    description: "Automated testing and quality assurance of IoT projects",
     responsibilities: [
-      "Full-stack TDD with Ruby, Javascript and Kotlin",
-      "Linux application development with C++",
+      "Automating testing of hardware and software products using javascript and C#",
+      "Debugging issues in embedded linux devices",
     ],
   },
 ];
