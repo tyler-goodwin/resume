@@ -1,0 +1,33 @@
+.pageHeader {
+  margin-bottom: 0;
+}
+
+.headerInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.subtitle {
+  padding: 0;
+}
+
+@media screen {
+  .webLinks {
+    display: block;
+  }
+
+  .printLinks {
+    display: none;
+  }
+}
+
+@media print {
+  .webLinks {
+    display: none;
+  }
+
+  .printLinks {
+    display: block;
+  }
+}

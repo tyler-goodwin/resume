@@ -1,5 +1,12 @@
 import Head from "next/head";
-import { Education, Info, Projects, Skills, WorkHistory } from "@/components";
+import {
+  Education,
+  Info,
+  Projects,
+  Referees,
+  Skills,
+  WorkHistory,
+} from "@/components";
 
 export default function Home() {
   return (
@@ -8,7 +15,7 @@ export default function Home() {
         <title>Resume | Tyler Goodwin</title>
         <meta
           name="description"
-          content="This is the resume of software engineer Tyler Goodwin."
+          content="Resume of Software Engineer and Technical Lead Tyler Goodwin."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -19,6 +26,7 @@ export default function Home() {
         <Projects />
         <Education />
         <WorkHistory />
+        <Referees />
       </main>
     </>
   );

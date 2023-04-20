@@ -10,6 +10,7 @@ export const DEFAULT_SKILLS: Section[] = [
       "Typescript",
       "Javascript",
       "Ruby",
+      "HTML & CSS",
       "Rust",
       "C++",
       "C#",
@@ -23,11 +24,19 @@ export const DEFAULT_SKILLS: Section[] = [
   },
   {
     heading: "Devops",
-    items: ["AWS", "Pulumi", "Docker", "Linux", "Cloudflare", "Bitbucket CI"],
+    items: [
+      "AWS",
+      "Pulumi",
+      "Docker",
+      "Linux",
+      "Cloudflare",
+      "Bitbucket CI",
+      "Jenkins",
+    ],
   },
   {
     heading: "Professional",
-    items: ["Code Review", "Written and Verbal Communication"],
+    items: ["Technical Strategy", "Code Review", "Communication"],
   },
 ];
 
