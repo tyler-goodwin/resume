@@ -35,3 +35,10 @@
   background-color: var(--accent-secondary);
   list-style-type: none;
 }
+
+@media print {
+  .badges > li {
+    background-color: unset;
+    border: 2px solid var(--accent-secondary);
+  }
+}
