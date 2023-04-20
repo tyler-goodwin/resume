@@ -51,11 +51,11 @@ const ROLES: Role[] = [
     start: "August 2022",
     end: "Present",
     description:
-      "Lead of development team for the CAPTUR3D platform. Managing delivery of technical goals for the platform, including paying down technical debt and ensuring sustainable development practises.",
+      "Lead of development team for the CAPTUR3D platform. Managing and ensuring delivery of technical goals for the platform, including paying down technical debt and ensuring sustainable development practises.",
     responsibilities: [
       "Setting and ensuring delivery of technical strategy to meet business goals",
       "Overseeing management of feature delivery and platform maintenance",
-      "Ensuring strong dev team performance via DORA metrics and OKRs",
+      "Ensuring strong development team performance via DORA metrics and OKRs",
       "Supporting team professional development",
     ],
   },
@@ -69,7 +69,7 @@ const ROLES: Role[] = [
     responsibilities: [
       "Leading feature delivery",
       "Incidence response and mitigations",
-      "Developer tooling improvements to support effecient development practises",
+      "Developer tooling improvements to support effecient development practices",
       "Devops and IaC using AWS, Pulumi and Cloudflare",
       "Mentoring mid and junior developers",
     ],
@@ -80,7 +80,7 @@ const ROLES: Role[] = [
     start: "July 2019",
     end: "August 2020",
     description:
-      "Full-stack development for embedded linux devices and cloud applications for enabling connectivity in automated driving",
+      "Full stack development for embedded linux devices and cloud applications for enabling connectivity in automated driving",
     responsibilities: [
       "Full-stack TDD with Ruby, Javascript and Kotlin",
       "Linux application development with C++",
@@ -93,7 +93,7 @@ const ROLES: Role[] = [
     start: "March 2019",
     end: "July 2019",
     description:
-      "Full-stack development for embedded linux devices and cloud applications for enabling connectivity in automated driving",
+      "Full stack development for embedded linux devices and cloud applications for enabling connectivity in automated driving",
     responsibilities: [
       "Full-stack TDD with Ruby, Javascript and Kotlin",
       "Linux application development with C++",
