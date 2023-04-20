@@ -9,6 +9,7 @@ const DEFAULT_PROJECTS = [
       "Worked closely with technical director to set out technical vision and strategy for the next 3 years",
     items: [
       "Detailed resourcing, technical debt and key focus areas for the duration of the plan",
+      "Working with key stakeholders for implementation and delivery",
     ],
   },
   {
