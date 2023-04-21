@@ -20,7 +20,7 @@ export const DEFAULT_SKILLS: Section[] = [
   },
   {
     heading: "Frameworks and Tools",
-    items: ["React", "Ruby on Rails", "PostgreSQL", "Three.js"],
+    items: ["NodeJS", "React", "Ruby on Rails", "PostgreSQL", "Three.js"],
   },
   {
     heading: "DevOps",
