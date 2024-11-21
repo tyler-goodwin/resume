@@ -17,7 +17,7 @@ export const Info: React.FC = () => {
         <h1 className={styles.pageHeader}>Tyler Goodwin</h1>
         <div className={styles.headerInfo}>
           <div className={styles.subtitle}>
-            Technical Lead | Software Engineer
+            Senior Software Engineer | Technical Leader
           </div>
           <div className={styles.links}>
             <div className={styles.webLinks}>
@@ -34,8 +34,8 @@ export const Info: React.FC = () => {
       <section>
         <div>
           <p>
-            Driven professional problem solver with a proven track record of
-            delivering successful projects and empowering teammates.
+            Professional problem solver with a proven track record of
+            delivering successful projects and empowering organizations.
           </p>
         </div>
       </section>
