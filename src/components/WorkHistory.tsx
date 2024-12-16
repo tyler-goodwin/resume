@@ -46,8 +46,8 @@ export const WorkHistory: React.FC<Props> = (props) => {
 
 const ROLES: Role[] = [
   {
-    title: "Senior Backend Engineer - Edge Team",
-    employer: "Canva",
+    title: "Senior Backend Engineer",
+    employer: "Canva (Edge Team)",
     start: "October 2023",
     end: "Present",
     description: "Develop and operate edge capabilities as a part of Canva's product platform to ensure performant, secure and scalable traffic management for over 200 million monthly active users.",

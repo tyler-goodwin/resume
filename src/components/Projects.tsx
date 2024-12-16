@@ -4,6 +4,15 @@ import styles from "./Projects.module.css";
 
 const DEFAULT_PROJECTS = [
   {
+    heading: "Edge Configurable Router",
+    description: "Lead design and implementation of a new config-driven edge router responsible for routing all of Canva's traffic",
+    items: [
+      "Setup a simple configuration as a paved road for common use-cases for teams",
+      "Included extensible framework for teams to contribute custom middleware and handlers",
+      "Delivered goal on time migrating over 70% of legacy handlers to router without incident"
+    ],
+  },
+  {
     heading: "Development of Technical Strategy for 2023-2025",
     description:
       "Worked closely with Phoria's Technical Director to set out technical vision and strategy for the next 3 years",
@@ -20,15 +29,6 @@ const DEFAULT_PROJECTS = [
       "No downtime during rollout",
       "2hr deploys reduced to 5 minutes",
       "Introduced team to Infrastructure as Code tooling using Pulumi",
-    ],
-  },
-  {
-    heading: "Property Page Modernization",
-    description:
-      "Setup and lead the replacement of a legacy UI with a brand new React Microfrontend",
-    items: [
-      "Architected to be extensible and compatible with a SPA in the future",
-      "Allowed for opt in by customers for first 3 months after release",
     ],
   },
   {
